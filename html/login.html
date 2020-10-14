@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户登录</title>
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="shortcut icon" href="../favicon.ico">
+</head>
+
+<body>
+    <!-- 顶部标题 -->
+    <div class="title">
+        <div class="w">
+            <img src="../image/logo.jpg" alt="小U商城">
+            <i></i>
+            <span>欢迎登录</span>
+        </div>
+    </div>
+    <!-- 登录 -->
+    <div class="login">
+        <div class="w">
+            <div class="login_box f-r">
+                <form action="" method="POST">
+                    <div class="l-i">登录</div>
+                    <div class="border"><i class="iconfont">&#xe857;</i><input id="user" type="text" name="uesrname"
+                            placeholder="手机号/会员名/邮箱"></div>
+                    <div class="border"><i class="iconfont">&#xe636;</i><input id="pwd" type="password" name="userpw"
+                            placeholder="密码"></div>
+                    <div class="alone-border"><input id="regcode" type="text" placeholder="验证码"></div>
+                    <span class="v_code" id="codes"></span>
+                    <input class="submit" type="button" onclick="userlogin()" value="登录">
+                    <div class="other_item clearfix">
+                        <div class="iconfont f-l">&#xe740;自动登录</div>
+                        <div class="f-r">忘记密码？</div>
+                    </div>
+                    <div class="other_mode">
+                        <ul class="clearfix">
+                            <li class="item1"><a href="">QQ</a></li>
+                            <li class="item1"><a href="">微博</a></li>
+                            <li class="item1"><a href="">微信</a></li>
+                            <li class="item2"><a href="">立即注册</a></li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 底部版权区 -->
+    <div class="bottom">
+        <p>Copyright©2010-2016小U商城 版权所有 保留一切权利</p>
+        <p>京ICP备10218183号 京ICP证161188号 京公网安备 11010802020593号 出版物经营许可证新出发京批字第直130052号</p>
+    </div>
+
+    <!-- --------------JS-------------- -->
+    <script src="../js/jquery.js"></script>
+    <script src="../js/ajax.js"></script>
+    <script src="http://www.gongjuji.net/Content/files/jquery.md5.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

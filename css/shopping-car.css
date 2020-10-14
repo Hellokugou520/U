@@ -1,0 +1,173 @@
+/* 
+购物车
+*/
+
+
+/* 搜索区开始 */
+.search{
+    width: 100%;
+    height: 120px;
+}
+.search i{
+    display: inline-block;
+    width: 1px;
+    height: 50px;
+    background-color: #E8E8E8;
+    margin: 0px 20px -20px 25px;
+}
+.search span{
+    font-size: 20px;
+}
+.search_box1{
+    width: 391px;
+}
+.search_box2 a{
+    width: 80px;
+}
+/* 搜索区结束 */
+
+/* 购物车商品开始 */
+.sc_goods .title_block{
+    height: 16px;
+    background-color: #F5F5F5;
+    border: 1px solid #D9D9D9;
+    padding:12px 20px;
+}
+.sc_goods .title_block li{
+    float: left;
+}
+.sc_goods .title_block .item1 span{
+    margin-left: 10px;
+}
+.sc_goods .title_block .item2{
+    margin-left: 162px;
+}
+.sc_goods .title_block .item3{
+    margin-left: 275px;
+}
+.sc_goods .title_block .item4{
+    margin-left: 135px;
+}
+.sc_goods .title_block .item5{
+    margin-left: 150px;
+}
+.sc_goods .title_block .item6{
+    margin-left: 160px;
+}
+.commodity ul{
+    border-bottom: 1px solid #D9D9D9;
+}
+.commodity li{
+    float: left;
+    height: 84px;
+    padding-top: 25px;
+}
+.commodity .item1{
+    padding-left: 20px;
+}
+.commodity li .phone{
+    margin-left: 20px;
+}
+.commodity li a{
+    color: #000;
+}
+.commodity li a:hover{
+    color: #F26B11;
+}
+.commodity li p{
+    margin-bottom: 15px;
+}
+.commodity li .type{
+    color: #818181;
+}
+.commodity .item2{
+    font-size: 15px;
+    margin-left: 90px;
+}
+.commodity .item3{
+    margin-left: 90px;
+}
+.commodity .item3 div{
+    float: left;
+    height: 28px;
+}
+.commodity .item3 .number{
+    width: 40px;
+    border-top: 1px solid #D9D9D9;
+    border-bottom: 1px solid #D9D9D9;
+}
+.commodity .item3 .mark{
+    font-size: 20px;
+    width: 28px;
+    border: 1px solid #D9D9D9;
+    text-align: center;
+    line-height: 28px;
+}
+.commodity .item4{
+    font-size: 15px;
+    color: #F26B11;
+    margin-left: 102px;
+}
+.commodity .item5{
+    margin-left: 145px;
+}
+.commodity .item5 .delete{
+    margin-bottom: 10px;
+}
+.commodity .item5 .delete a{
+    color: #F26B11;
+    text-decoration: underline;
+}
+.commodity .item5 .collection a:hover{
+    color: #F26B11;
+}
+/* 购物车商品结束 */
+
+/* 结算详情开始 */
+.detailed .w{
+    width: 1120px;
+    height: 80px;
+    background-color: #F9F9F9;
+    margin-top: 40px;
+    padding: 15px 50px 0px 20px;
+}
+.detailed .function span{
+    margin-left: 10px;
+}
+.detailed .function a{
+    margin-left: 30px;
+    color: #F26B11;
+}
+.detailed .content .f-l{
+    margin-right: 10px;
+}
+.detailed .content .f-l span{
+    color: #F26B11;
+}
+.detailed .content .f-r span{
+    font-size: 16px;
+    color: #F26B11;
+}
+/* 结算详情结束 */
+
+/* 结算按钮开始 */
+.order{
+    height: 75px;
+    padding-top: 25px;
+}
+.order input{
+    width: 185px;
+    height: 45px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.order .button1{
+    background-color: #fff;
+    color: #F26B11;
+    border: 1px solid #F26B11;
+}
+.order .button2{
+    background-color: #F26B11;
+    color: #fff;
+}
+/* 结算按钮结束 */

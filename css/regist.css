@@ -1,0 +1,114 @@
+/* 
+用户注册页
+*/
+
+
+/* 顶部标题开始 */
+.title{
+    height: 110px;
+    overflow: hidden;
+}
+.title .w{
+    line-height: 107px;
+}
+.title i{
+    display: inline-block;
+    width: 1px;
+    height: 50px;
+    background-color: #E8E8E8;
+    margin: 0px 20px -20px 25px;
+}
+.title span{
+    font-size: 20px;
+}
+/* 顶部标题结束 */
+
+/* 注册开始 */
+.regist{
+    height: 550px;
+    background-color: #F6F6F6;
+}
+.regist .w{
+    height: 100%;
+    overflow: hidden;
+}
+.regist .regist_box{
+    width: 380px;
+    height: 402px;
+    background-color: #fff;
+    border-top: 3px solid #F76915;
+    margin: 35px auto 0px; 
+    padding: 30px 185px 45px 185px;
+}
+.regist .regist_box form{
+    position: relative;
+}
+.regist .regist_box .r-g{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.regist .regist_box p{
+    margin-bottom: 20px;
+    color: #F56B12;
+    opacity: 0;
+}
+.regist .regist_box .border{
+    margin-bottom: 10px;
+    border: 1px solid #D9D9D9;
+}
+.regist .regist_box .alone-border{
+    width: 205px;
+    margin-bottom: 10px;
+    border: 1px solid #D9D9D9;
+}
+.regist .regist_box .border .iconfont{
+    display: inline-block;
+    font-size: 16px;
+    color: #BFBFBF;
+    height: 36px;
+    line-height: 35px;
+    padding: 0px 9px;
+    background-color: #F6F6F6;
+}
+.regist .regist_box .border input{
+    height: 35px;
+    border-left: 1px solid #D9D9D9;
+    padding-left: 15px;
+}
+.regist .regist_box .alone-border input{
+    height: 35px;
+    padding-left: 15px;
+}
+.regist .regist_box .v_code{
+    position: absolute;
+    right: 5px;
+    bottom: 130px;
+    color: #274195;
+    font-size: 16px;
+}
+.regist .regist_box .submit{
+    width: 380px;
+    height: 35px;
+    background-color: #F26B11;
+    color: #fff;
+    margin-bottom: 35px;
+    cursor: pointer;
+}
+.regist .regist_box .other_item{
+    text-align: center;
+}
+.regist .regist_box .other_item a{
+    color: #F56B12;
+}
+/* 注册结束 */
+
+/* 底部版权区 */
+.bottom{
+    height: 90px;
+    text-align: center;
+    padding-top: 40px;
+}
+.bottom p{
+    margin-bottom: 15px;
+}
